@@ -1,0 +1,165 @@
+% Don't mind "Unused global option(s)" Warnings.
+
+\documentclass
+    [   % unnumberedsheets,       % No practice sheet numbers
+        repeatauthor,           % Author name shows up on each page (or short author, if one is set)
+        % shorttitle,             % Short University and Course Name in the title
+        % shorheader              % This isn't that hard to guess
+        a4paper                 % Paper Size
+    ]{uhhassignment}
+    % ------------------
+    % Packages
+    \usepackage{csquotes}                                   % Easy Quotation marks etc.
+    \usepackage[utf8]{inputenc} \usepackage[ngerman]{babel} % UTF8 Encoding & New German Spelling
+    \usepackage{microtype}                                  % Better hypernotation
+    \usepackage{graphicx}                                   % Include Graphics
+    \usepackage{hyperref}                                   % Clickable links ("nameref" & "url" packages included)
+    \usepackage{listings}                                   % Sourcecode Pretty printing
+    \lstset{
+        stringstyle = \ttfamily, numbers = left, basicstyle = \small, numberstyle = \ttfamily, breaklines, breakatwhitespace,
+        keywordstyle = \color{violet}, commentstyle = \color{cyan},
+        showspaces = false, showstringspaces = false, showtabs = true,
+        frame = single, frameround = tttt, backgroundcolor = \color{gray!40}, fillcolor = \color{white}
+        }
+    % ------------------
+    
+
+
+\begin{document}
+% ------------------
+% Information
+\university[DHBW Karlsruhe]{\includegraphics[height=1cm]{DHBW-Logo.pdf}}
+\author[SHORT AUTHOR]{FULL AUTHOR NAME \id{STUDENT ID}}
+
+
+\course[SHORT COURSE]{FULL COURSE NAME}
+\teacher{TEACHER NAME}
+\group{GROUP}               % Number of your exercise group
+\sheetno{SHEETNO}           % Number of this practice sheet
+
+\title{TITLE}
+% \date{CUSTOM DATE}          % Use only if you actually want to customize the date
+% ------------------
+
+% ------------------
+\maketitle                  % Prints title
+% ------------------
+
+\todo[Mark your todos]
+
+\task{Task 1}
+\label{tsk: Task1}
+
+Pariatur mollit eu incididunt labore labore ut elit ipsum magna.\\
+Incididunt cupidatat deserunt eu tempor ad sint irure minim irure sint duis exercitation.
+
+Ullamco mollit tempor officia est incididunt et eiusmod mollit reprehenderit eiusmod elit. 
+Officia nisi officia aute qui enim nulla sint ea veniam tempor dolor.\\
+Minim eiusmod laboris ipsum ad eiusmod ea exercitation aliqua fugiat esse irure minim pariatur et.
+ Laboris ea id pariatur exercitation eiusmod proident anim culpa et excepteur.
+
+You can write Code as follows:
+
+\begin{lstlisting}[language = Java, firstnumber = 100]
+    for (i = 1; i< counter; i++ ){ //FOR-loop
+        return; //do nothing
+    }
+    // end
+    String with spaces
+\end{lstlisting}
+
+Mollit elit laboris magna quis ipsum. 
+Mollit ullamco dolor culpa mollit. 
+\begin{lstlisting}[language = Java]
+    public static End{
+        try{
+            application.quit();
+            return 'success';
+        } catch
+        {return "failure"}
+    }
+\end{lstlisting}
+Nulla deserunt laboris elit laboris esse officia nostrud sit veniam commodo laboris nisi commodo officia. 
+Aliquip qui proident nulla laborum laboris magna ullamco Lorem labore occaecat nisi qui dolore.
+
+
+\begin{minipage}{\textwidth}
+    \begin{lstlisting}[language = Java, firstnumber = last]
+        public class NewClass 
+        {
+            public static void main(args[] args){
+                return 'Hello World! Also: Do anim nisi aliquip aliqua aliqua fugiat nostrud occaecat ex dolore sit. Cupidatat exercitation ipsum velit magna qui ea aliquip reprehenderit.';
+            }
+        }
+    \end{lstlisting}
+\end{minipage}
+
+\subtask{Subtask 1}
+Aliqua sint do sit velit ipsum quis dolore dolore aute.
+
+\subtask{Subtask 2}
+Elit eiusmod nostrud commodo sunt excepteur cupidatat consequat voluptate ipsum ut veniam ex.
+
+\subsubtask{Subsubtask 1}
+Eiusmod sit voluptate id laboris.
+
+\subsubtask{Subsubtask 2}
+Id quis non laboris sunt laborum ea fugiat aliqua esse nostrud non id magna.
+
+\task{Task 2}
+Magna velit laborum quis quis anim adipisicing. 
+
+This is how to have links:
+
+\href{https://ftp.cc.uoc.gr/mirrors/CTAN/macros/latex/contrib/uhhassignment/uhhassignment.pdf}{Documentclass Used}\\
+Useful URL: \url{translate.google.com}\\
+\nameref{subsec: Subsection1}
+
+Laboris voluptate esse eu ad aliqua velit laborum mollit proident quis elit.\\
+Proident sint nostrud incididunt id occaecat nulla est officia ullamco nostrud in. 
+Est eu adipisicing nostrud incididunt deserunt deserunt reprehenderit magna sit duis laborum. 
+Tempor dolor anim id sunt nulla id ea eiusmod magna nostrud.
+
+
+
+
+
+\newpage
+\section{Section 1}
+The typical \texttt{\textbackslash section}s still work, but it is not recommended.\\
+Rather use the \texttt{\textbackslash task}s as shown above on page \pageref{tsk: Task1}
+
+Enim incididunt mollit elit esse Lorem velit amet. 
+Lorem consectetur nulla cillum Lorem officia nostrud quis labore velit ullamco cillum irure Lorem ad. 
+Esse ex magna voluptate in laboris commodo tempor pariatur tempor nisi tempor in exercitation.\\
+Occaecat consectetur esse duis labore ea irure dolor voluptate dolor aliqua non et adipisicing.
+
+\section{Section 2}
+Id tempor ullamco dolor culpa anim eiusmod. Ea mollit cupidatat reprehenderit minim.
+
+\subsection{Subsection 1}
+\label{subsec: Subsection1}
+Culpa enim est nostrud nulla pariatur irure. Eu nostrud nisi incididunt non enim occaecat anim incididunt laboris. 
+Voluptate excepteur non amet labore est. Mollit minim nisi do fugiat velit.
+
+\subsection{Subsection 2}
+Velit incididunt enim Lorem in aliqua Lorem consectetur veniam exercitation est.
+
+\subsubsection{Subsubsection 1}
+Nulla ut cupidatat laborum fugiat non laboris commodo aute tempor elit Lorem ut do. 
+Consequat incididunt cillum esse velit id in magna. Pariatur do fugiat anim qui cillum Lorem sint sint. 
+
+Cupidatat do laborum eiusmod cupidatat nostrud. Reprehenderit adipisicing veniam pariatur velit. 
+Lorem adipisicing irure culpa nulla ullamco aliqua laborum proident nisi eiusmod excepteur.
+
+\subsubsection{Subsubsection 2}
+Esse anim non occaecat deserunt deserunt nisi nulla ut.\\
+Pariatur culpa pariatur nulla velit eiusmod Lorem ea. 
+Voluptate eu magna quis ipsum commodo irure magna do occaecat ex ipsum eu commodo. 
+
+\enquote{Esse do ea nisi nisi.}
+
+Excepteur exercitation cupidatat reprehenderit veniam excepteur occaecat labore magna eiusmod velit.
+
+
+\end{document}
