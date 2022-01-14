@@ -1,0 +1,53 @@
+% Don't mind "Unused global option(s)" Warnings.
+
+\documentclass
+    [   % unnumberedsheets,       % No practice sheet numbers
+        repeatauthor,           % Author name shows up on each page (or short author, if one is set)
+        shorttitle,             % Short University and Course Name in the title
+        a4paper                 % Paper Size
+    ]{uhhassignment}
+    % ------------------
+    % Packages
+    \usepackage{csquotes}                                   % Easy Quotation marks etc.
+    \usepackage[utf8]{inputenc} \usepackage[ngerman]{babel} % UTF8 Encoding & New German Spelling
+    \usepackage{microtype}                                  % Better hypernotation
+    \usepackage{graphicx}                                   % Include Graphics
+    \usepackage{hyperref}                                   % Clickable links ("nameref" & "url" packages included)
+    \usepackage{listings}                                   % Sourcecode Pretty printing
+    \lstset{
+        stringstyle = \ttfamily, numbers = left, basicstyle = \small, numberstyle = \ttfamily, breaklines, breakatwhitespace,
+        keywordstyle = \color{violet}, commentstyle = \color{cyan},
+        showspaces = false, showstringspaces = false, showtabs = true,
+        frame = single, frameround = tttt, backgroundcolor = \color{gray!40}, fillcolor = \color{white}
+        }
+    % ------------------
+    
+
+
+\begin{document}
+% ------------------
+% Information
+\university[DHBW Karlsruhe]{\includegraphics[height=1cm]{../DHBW-Logo.pdf}}
+\author[SHORT AUTHOR]{FULL AUTHOR NAME \id{STUDENT ID}}
+
+
+\course[SHORT COURSE]{FULL COURSE NAME}
+\teacher{TEACHER NAME}
+\group{GROUP}               % Number of your exercise group
+\sheetno{SHEETNO}           % Number of this practice sheet
+
+\title{TITLE}
+% \date{CUSTOM DATE}          % Use only if you actually want to customize the date
+% ------------------
+
+% ------------------
+\maketitle                  % Prints title
+% ------------------
+
+
+% ------------------
+% Content HERE              <==============
+% ------------------
+
+
+\end{document}
