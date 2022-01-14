@@ -7,7 +7,8 @@ It is
 + in one file (except DHBW-logo)
 + easily understandable
 + compiling really fast
-+ enabeling to get done with your work faster than using wysiwyg-office programs (such as libre office and ms word)
++ enabeling to get done with your work faster than using wysiwyg-office programs  
+  (such as libre office and ms word)
 
 ### I still wanted to include nice packages:
   |||
