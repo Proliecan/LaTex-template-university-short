@@ -60,3 +60,6 @@ $RECYCLE.BIN/
 
 # ========== VS Code ===============
 .vscode/*
+
+# ========== Miscellaneous ===============
+template.pdf
