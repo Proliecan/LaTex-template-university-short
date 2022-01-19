@@ -1,6 +1,17 @@
 # LaTex-Template for short and fast Documents
 This Template is intended for very short documents such as homework, that still should be formatted properly.
 
+
+ 
+ ## HOW TO USE
+ 1. Copy the Logo to your directory.
+ 2. Make a sub-directory for any seperate document you want to create.
+ 3. Copy the "template.tex" to the subdirectory.
+ 4. Fill in your information & title.
+ 5. Type your content & you're done!
+
+
+## General Information:
 It is
 + short
 + lightweight
@@ -16,3 +27,4 @@ It is
   `graphix` | insert pictures
  `hyperref` | clickable links
  `listings` | code formatting
+ 
