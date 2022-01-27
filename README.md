@@ -2,6 +2,8 @@
 This Template is intended for very short documents such as homework, that still should be formatted properly.
 
 
+## Setup-Guide:
+Follow this link to: [gist.github.com/proliecan/...](https://gist.github.com/Proliecan/eb2ebea8084af4d211fe4d9f57fa1516)
  
  ## HOW TO USE
  1. Copy the Logo to your directory.
